@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="/Chat/scripts/EventEmitter.js"></script>
+    <script src="/Chat/scripts/Chat.js"></script>
+    <script src="/Chat/App.js"></script>
+
+</head>
+<body>
+<h1>Chat of Power</h1>
+<p>Dymen DL20</p>
+    <article id="chat">
+        <section id="dymen">
+            <div id="dymen-messages-list" class="messages"></div>
+
+            <hr />
+            <form id="dymen-send-message" class="send-message">
+                <input type="text" id="dymen-message" placeholder="votre message" />
+                <input type="submit" value="Ok" />
+            </form>
+            <button id="dymen-disconnect">X</button>
+        </section>
+
+        <section id="milie">
+            <div id="milie-messages-list" class="messages"></div>
+
+            <hr />
+            <form id="milie-send-message" class="send-message">
+                <input type="text" id="milie-message" placeholder="votre message" />
+                <input type="submit" value="Ok" />
+            </form>
+            <button id="milie-disconnect">X</button>
+        </section>
+    </article>
+
+</body>
+</html>
